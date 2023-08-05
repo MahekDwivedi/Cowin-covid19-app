@@ -4,4 +4,6 @@ Cowin app is a one stop application to know the latest stats and data about the 
 ![covid stats](https://github.com/MahekDwivedi/Cowin-covid19-app/assets/117574186/3976bf49-cf83-4533-94bd-ab0bec1d12cf)
 
 #covid 19 data across the globe
+![cv](https://github.com/MahekDwivedi/Cowin-covid19-app/assets/117574186/945fe9d3-00e5-4bde-a087-8136ab603699)
+
 

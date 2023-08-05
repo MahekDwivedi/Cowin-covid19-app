@@ -1,0 +1,191 @@
+# the css style part of cowin app 
+
+.button {
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	/* width: 200px; */
+	transition: all 0.3s;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+/* our code */
+header {
+	margin: auto;
+	font-size: 20px;
+
+	color: blanchedalmond;
+	padding: 15px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: system-ui;
+	overflow: hidden;
+	margin-top: 0px;
+	background-image: url("media/medical.jpg");
+	box-shadow: 8px 8px 8px 0 rgba(44, 16, 16, 0.2),
+		0 6px 20px 0 rgba(42, 36, 48, 0.19);
+}
+th {
+	font-size: 18px;
+	font-weight: bolder;
+	padding-right: 55px;
+	font-family: "Karla", sans-serif;
+	color: white;
+}
+h3 {
+	font-family: system-ui;
+	font-size: bold;
+}
+.global-data {
+	margin: 20px;
+	padding: 10px;
+	font-family: "Karla", sans-serif;
+	font-size: 18px;
+	box-shadow: 8px 8px 8px 0 rgba(44, 16, 16, 0.2),
+		0 6px 20px 0 rgba(42, 36, 48, 0.19);
+	overflow: hidden;
+}
+.cases-table {
+	display: inline-flex;
+}
+.inline {
+	margin: 10px;
+}
+.global:hover {
+	background-color: #f5f5f5;
+}
+.b1,
+.b2,
+.b3 {
+	padding: 10px;
+	font-size: 18px;
+	margin: 20px;
+	box-shadow: 12px 10px 8px 0 rgba(44, 16, 16, 0.2),
+		0 10px 25px 0 rgba(42, 36, 48, 0.19);
+	display: inline-flex;
+}
+
+.b1 {
+	background-color: #ffe60096;
+}
+.b2 {
+	background-color: #ff4c4ce6;
+}
+.b3 {
+	background-color: #2aead5ba;
+}
+
+#total-cases,
+#total-deaths,
+#total-recovered {
+	display: contents;
+}
+@media screen and (max-width: 700px) {
+	.cases-table {
+		display: grid;
+	}
+	/* header {
+        width: 700px;
+    } */
+}
+@media screen and (max-width: 560px) {
+	.cases-table {
+		display: grid;
+		/* width: 400px;
+        height: 400px; */
+	}
+	header {
+		width: 500px;
+		font-size: 25px;
+	}
+	.b1,
+	.b2,
+	.b3 {
+		font-size: 23px;
+		box-shadow: 8px 8px 8px 0 rgba(44, 16, 16, 0.2),
+			0 6px 20px 0 rgba(42, 36, 48, 0.19);
+	}
+	footer {
+		width: 550px;
+		font-size: 20px;
+	}
+	#container {
+		width: fit-content;
+	}
+}
+#inputtext {
+	font-size: 21px;
+	font-family: "IM Fell DW Pica SC", serif;
+	font-weight: bold;
+	width: 500px;
+}
+#tabledesign {
+	background-color: rgb(19, 63, 63);
+}
+#container {
+	/* background-image: url("media/unnamed.jpg"); */
+	/* background-image: linear-gradient(90deg, red, yellow);*/
+	background-image: linear-gradient(90deg, #94dcfd, #e9ddec);
+	/* /* opacity: 0.1; */
+}
+.videos {
+	margin: auto;
+
+	padding-top: 15px;
+	word-spacing: 5px;
+}
+.v1 {
+	border: 2px rgb(54, 54, 54);
+	padding: 10px;
+}
+.v1:hover {
+	opacity: 0.85;
+}
+h4 {
+	margin-left: 15px;
+	font-size: 20px;
+	font-family: system-ui;
+	font-weight: bold;
+	color: rgb(41, 33, 22);
+}
+footer {
+	margin-top: 20px;
+	border-top: 5px double;
+	background-color: rgb(241, 243, 128);
+	padding: 20px;
+	font-size: 15px;
+	background-image: url("media/footerbg.png");
+	font-family: system-ui;
+	font-weight: bold;
+
+	/* width: 435px; */
+}
